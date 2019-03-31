@@ -1,0 +1,21 @@
+{
+  "addons": [
+    "mongolab"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "MONGODB_URI": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "name": "eosjs",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
